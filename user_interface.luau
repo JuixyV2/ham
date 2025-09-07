@@ -328,19 +328,6 @@ local Library do
 
     local Themes = {
         ["Default"] = {
-            ["Window Background"] = FromRGB(43, 43, 43),
-            ["Inline"] = FromRGB(12, 12, 12),
-            ["Text"] = FromRGB(180, 180, 180),
-            ["Section Background"] = FromRGB(19, 19, 19),
-            ["Element"] = FromRGB(63, 63, 63),
-            ["Border"] = FromRGB(68, 68, 68),
-            ["Outline"] = FromRGB(0, 0, 0),
-            ["Dark Liner"] = FromRGB(56, 56, 56),
-            ["Risky"] = FromRGB(255, 50, 50),
-            ["Accent"] = FromRGB(31, 226, 130)
-        },
-
-        ["Bitchbot"] = {
             ["Window Background"] = Color3.new(0.162541, 0.162541, 0.162541),
             ["Inline"] = Color3.new(0.0624316, 0.0624316, 0.0624316),
             ["Text"] = Color3.new(1, 1, 1),
@@ -351,6 +338,19 @@ local Library do
             ["Dark Liner"] = Color3.new(0.15344, 0.15344, 0.15344),
             ["Risky"] = Color3.new(255, 50, 50),
             ["Accent"] = Color3.new(0.474715, 0.598206, 0.881507)
+        },
+
+        ["Bitchbot"] = {
+           ["Window Background"] = FromRGB(33, 33, 33),
+            ["Inline"] = FromRGB(14, 14, 14),
+            ["Text"] = FromRGB(255, 255, 255),
+            ["Section Background"] = FromRGB(18, 18, 18),
+            ["Element"] = FromRGB(14, 14, 14),
+            ["Border"] = FromRGB(0, 0, 0),
+            ["Outline"] = FromRGB(19, 19, 19),
+            ["Dark Liner"] = FromRGB(21, 21, 21),
+            ["Risky"] = FromRGB(255, 50, 50),
+            ["Accent"] = FromRGB(158, 79, 249)
         },
 
         ["Onetap"] = {
