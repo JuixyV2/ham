@@ -193,10 +193,10 @@ local Library do
         },
 
         Folders = {
-            Directory = "ham",
-            Configs = "ham/Configs",
-            Assets = "ham/Assets",
-            Themes = "ham/Themes"
+            Directory = "fluent",
+            Configs = "fluent/Configs",
+            Assets = "fluent/Assets",
+            Themes = "fluent/Themes"
         },
 
         Images = { -- you're welcome to reupload the images and replace it with your own links
